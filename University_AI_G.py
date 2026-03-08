@@ -455,38 +455,38 @@ def main():
     #         st.rerun()
 
     if search_button and university_name:
-    with st.spinner('Searching university information...'):
-        # Search in cache
-        best_match, similarity = uni_system.search_university(university_name)
-        
-        if best_match:
-            uni_name = list(best_match.keys())[0]
-            uni_data = best_match[uni_name]["data"]
-            st.write("✅ Found in cache")
-            st.write("Debug - Data keys:", uni_data.keys())  # DEBUG
-        else:
-            # Fetch from internet
-            st.write("Debug - Fetching from API...")  # DEBUG
-            uni_data = uni_system.fetch_university_details(university_name)
-            uni_name = university_name
+        with st.spinner('Searching university information...'):
+            # Search in cache
+            best_match, similarity = uni_system.search_university(university_name)
             
-            st.write("Debug - API Response received")  # DEBUG
-            st.write("Debug - Data keys:", uni_data.keys())  # DEBUG
-            
-            if "error" not in uni_data:
-                uni_system.save_to_master_json(uni_name, uni_data)
-                st.success("✅ University details at your fingertips")
+            if best_match:
+                uni_name = list(best_match.keys())[0]
+                uni_data = best_match[uni_name]["data"]
+                st.write("✅ Found in cache")
+                st.write("Debug - Data keys:", uni_data.keys())  # DEBUG
             else:
-                st.error("❌ Could not fetch university information")
-                st.write("Debug - Error data:", uni_data)  # DEBUG
-                return
+                # Fetch from internet
+                st.write("Debug - Fetching from API...")  # DEBUG
+                uni_data = uni_system.fetch_university_details(university_name)
+                uni_name = university_name
+                
+                st.write("Debug - API Response received")  # DEBUG
+                st.write("Debug - Data keys:", uni_data.keys())  # DEBUG
+                
+                if "error" not in uni_data:
+                    uni_system.save_to_master_json(uni_name, uni_data)
+                    st.success("✅ University details at your fingertips")
+                else:
+                    st.error("❌ Could not fetch university information")
+                    st.write("Debug - Error data:", uni_data)  # DEBUG
+                    return
+            
+            # Store in session state
+            st.session_state.show_results = True
+            st.session_state.uni_name = uni_name
+            st.session_state.uni_data = uni_data
+            st.rerun()
         
-        # Store in session state
-        st.session_state.show_results = True
-        st.session_state.uni_name = uni_name
-        st.session_state.uni_data = uni_data
-        st.rerun()
-    
     # Display results if available
     if st.session_state.show_results and st.session_state.uni_data:
         uni_name = st.session_state.uni_name
@@ -704,6 +704,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
