@@ -187,124 +187,124 @@ class UniversityInfoSystem:
             json.dump(self.master_data, f, indent=4, ensure_ascii=False)
     
    
- def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
-    prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
-Search for latest information about "{university_name}".
-
-CURRENT YEAR: 2026
-
-Return ONLY valid JSON in this exact structure (include 7-8 items per list where applicable):
-
-{{
-    "university_name": "{university_name}",
-    "location": {{
-        "city": "City name",
-        "state": "State name", 
-        "country": "Country"
-    }},
-    "country": "India/Other",
-    "last_updated": "{datetime.now().strftime('%Y-%m-%d')}",
-    "academic_info": {{
-        "nirf_rank": "Rank or Not Applicable",
-        "nirf_rank_numeric": 0,
-        "courses": {{
-            "ug": ["8 main UG courses"],
-            "pg": ["8 main PG courses"],
-            "phd": ["8 main PhD areas"]
-        }},
-        "entrance_exams": ["8 main entrance exams"],
-        "official_website": "URL",
-        "fees_link": "URL",
-        "placements": {{
-            "year": "2025",
-            "highest_package": "Amount",
-            "average_package": "Amount",
-            "top_recruiters": ["8 top companies"],
-            "companies_visited": 0
-        }}
-    }},
-    "research_info": {{
-        "publications": {{
-            "last_year_2025": 0,
-            "total": 0
-        }},
-        "patents": {{
-            "filed_total": 0,
-            "granted_total": 0
-        }},
-        "funded_projects": {{
-            "count": 0,
-            "total_value_crores": 0
-        }},
-        "centralized_facilities": ["7 main facilities"]
-    }},
-    "sports_cultural": {{
-        "cultural_events": [
-            {{"event_name": "Event", "dates": "Dates"}}
-        ],
-        "sports_events": [
-            {{"event_name": "Event", "dates": "Dates"}}
-        ],
-        "extra_curricular": ["8 main activities"]
-    }},
-    "upcoming_events": {{
-        "international_conferences": [
-            {{"name": "Conference", "dates": "Dates"}}
-        ],
-        "national_conferences": [
-            {{"name": "Conference", "dates": "Dates"}}
-        ],
-        "faculty_development_programs": [
-            {{"name": "FDP", "dates": "Dates"}}
-        ],
-        "training_events": [
-            {{"name": "Training", "dates": "Dates"}}
-        ]
-    }}
-}}"""
+     def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
+        prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
+    Search for latest information about "{university_name}".
     
-    # Rest of your method remains the same... 
-        payload = {
-            "model": "qwen/qwen3-vl-30b-a3b-thinking",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.1,
-            "max_tokens": 3000
-        }
+    CURRENT YEAR: 2026
+    
+    Return ONLY valid JSON in this exact structure (include 7-8 items per list where applicable):
+    
+    {{
+        "university_name": "{university_name}",
+        "location": {{
+            "city": "City name",
+            "state": "State name", 
+            "country": "Country"
+        }},
+        "country": "India/Other",
+        "last_updated": "{datetime.now().strftime('%Y-%m-%d')}",
+        "academic_info": {{
+            "nirf_rank": "Rank or Not Applicable",
+            "nirf_rank_numeric": 0,
+            "courses": {{
+                "ug": ["8 main UG courses"],
+                "pg": ["8 main PG courses"],
+                "phd": ["8 main PhD areas"]
+            }},
+            "entrance_exams": ["8 main entrance exams"],
+            "official_website": "URL",
+            "fees_link": "URL",
+            "placements": {{
+                "year": "2025",
+                "highest_package": "Amount",
+                "average_package": "Amount",
+                "top_recruiters": ["8 top companies"],
+                "companies_visited": 0
+            }}
+        }},
+        "research_info": {{
+            "publications": {{
+                "last_year_2025": 0,
+                "total": 0
+            }},
+            "patents": {{
+                "filed_total": 0,
+                "granted_total": 0
+            }},
+            "funded_projects": {{
+                "count": 0,
+                "total_value_crores": 0
+            }},
+            "centralized_facilities": ["7 main facilities"]
+        }},
+        "sports_cultural": {{
+            "cultural_events": [
+                {{"event_name": "Event", "dates": "Dates"}}
+            ],
+            "sports_events": [
+                {{"event_name": "Event", "dates": "Dates"}}
+            ],
+            "extra_curricular": ["8 main activities"]
+        }},
+        "upcoming_events": {{
+            "international_conferences": [
+                {{"name": "Conference", "dates": "Dates"}}
+            ],
+            "national_conferences": [
+                {{"name": "Conference", "dates": "Dates"}}
+            ],
+            "faculty_development_programs": [
+                {{"name": "FDP", "dates": "Dates"}}
+            ],
+            "training_events": [
+                {{"name": "Training", "dates": "Dates"}}
+            ]
+        }}
+    }}"""
         
-        try:
-            st.write("Debug - Sending request to OpenRouter...")
-            response = requests.post(OPENROUTER_URL, headers=HEADERS, json=payload, timeout=60)
+        # Rest of your method remains the same... 
+            payload = {
+                "model": "qwen/qwen3-vl-30b-a3b-thinking",
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.1,
+                "max_tokens": 3000
+            }
             
-            st.write(f"Debug - Status Code: {response.status_code}")
-            st.write(f"Debug - Response Headers: {dict(response.headers)}")
-            
-            if response.status_code == 200:
-                result = response.json()
-                content = result["choices"][0]["message"]["content"]
-                st.write("Debug - Raw Response received, length:", len(content))
+            try:
+                st.write("Debug - Sending request to OpenRouter...")
+                response = requests.post(OPENROUTER_URL, headers=HEADERS, json=payload, timeout=60)
                 
-                json_start = content.find('{')
-                json_end = content.rfind('}') + 1
-                if json_start != -1 and json_end != 0:
-                    try:
-                        data = json.loads(content[json_start:json_end])
-                        st.write("Debug - Successfully parsed JSON")
-                        return data
-                    except json.JSONDecodeError as e:
-                        st.write(f"Debug - JSON Parse Error: {e}")
-                        st.write("Debug - Content that failed:", content[:500])
+                st.write(f"Debug - Status Code: {response.status_code}")
+                st.write(f"Debug - Response Headers: {dict(response.headers)}")
+                
+                if response.status_code == 200:
+                    result = response.json()
+                    content = result["choices"][0]["message"]["content"]
+                    st.write("Debug - Raw Response received, length:", len(content))
+                    
+                    json_start = content.find('{')
+                    json_end = content.rfind('}') + 1
+                    if json_start != -1 and json_end != 0:
+                        try:
+                            data = json.loads(content[json_start:json_end])
+                            st.write("Debug - Successfully parsed JSON")
+                            return data
+                        except json.JSONDecodeError as e:
+                            st.write(f"Debug - JSON Parse Error: {e}")
+                            st.write("Debug - Content that failed:", content[:500])
+                    else:
+                        st.write("Debug - No JSON found in response")
+                        st.write("Debug - Response content:", content[:500])
                 else:
-                    st.write("Debug - No JSON found in response")
-                    st.write("Debug - Response content:", content[:500])
-            else:
-                st.write(f"Debug - Error Response: {response.text}")
-                
-            return self.create_error_response(university_name)
-        except Exception as e:
-            st.write(f"Debug - Exception: {str(e)}")
-            import traceback
-            st.write(f"Debug - Traceback: {traceback.format_exc()}")
-            return self.create_error_response(university_name)
+                    st.write(f"Debug - Error Response: {response.text}")
+                    
+                return self.create_error_response(university_name)
+            except Exception as e:
+                st.write(f"Debug - Exception: {str(e)}")
+                import traceback
+                st.write(f"Debug - Traceback: {traceback.format_exc()}")
+                return self.create_error_response(university_name)
         
         def create_error_response(self, university_name: str) -> Dict[str, Any]:
             return {
@@ -720,6 +720,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
