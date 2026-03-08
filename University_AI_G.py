@@ -859,6 +859,42 @@ class UniversityInfoSystem:
         # Save locally (you'll need to manually upload to GitHub)
         with open(LOCAL_JSON_PATH, 'w', encoding='utf-8') as f:
             json.dump(self.master_data, f, indent=4, ensure_ascii=False)
+
+
+    def check_data_completeness(self, data: Dict) -> bool:
+        """Check if university data is complete or has missing/N/A values"""
+        try:
+            acad = data.get('academic_info', {})
+            
+            # Check NIRF rank
+            nirf = acad.get('nirf_rank', '')
+            if nirf in ["Not available", "N/A", "Not Applicable", "", None]:
+                return False
+            
+            # Check if courses are empty
+            if not acad.get('courses', {}).get('ug', []):
+                return False
+            if not acad.get('courses', {}).get('pg', []):
+                return False
+            
+            # Check placements
+            placements = acad.get('placements', {})
+            if not placements.get('highest_package') or placements.get('highest_package') in ["N/A", ""]:
+                return False
+            if not placements.get('average_package') or placements.get('average_package') in ["N/A", ""]:
+                return False
+            if not placements.get('top_recruiters', []):
+                return False
+            
+            # Check research info
+            research = data.get('research_info', {})
+            if research.get('publications', {}).get('total', 0) == 0:
+                return False
+            
+            return True
+        except:
+            # If any error in checking, assume incomplete
+            return False
     
     def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
         prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
@@ -1393,3 +1429,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
