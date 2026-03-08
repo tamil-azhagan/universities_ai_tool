@@ -736,7 +736,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # API Key directly in script
-API_KEY = st.secrets["OPENROUTER_API_KEY"]
+API_KEY = st.secrets["OPENROUTER_API_KEY"].strip()
+st.write(f"Debug - API Key length: {len(API_KEY)}")
+st.write(f"Debug - API Key starts with: {API_KEY[:10]}...")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 HEADERS = {
@@ -1426,6 +1428,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
