@@ -1,0 +1,2110 @@
+{
+    "SASTRA University": {
+        "data": {
+            "university_name": "SASTRA University",
+            "location": {
+                "city": "Thanjavur",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "address": "Tirumalaisamudram, Thanjavur - 613401"
+            },
+            "country": "India",
+            "established": 1984,
+            "last_updated": "2026-03-02",
+            "data_year": "2025",
+            "data_source": "JSON Cache",
+            "academic_info": {
+                "nirf_rank": "51st (2025)",
+                "nirf_rank_numeric": 51,
+                "accreditation": {
+                    "naac": "A++"
+                },
+                "courses": {
+                    "ug": [
+                        "B.Tech Computer Science & Engineering",
+                        "B.Tech Artificial Intelligence",
+                        "B.Tech Biotechnology",
+                        "B.Tech Civil Engineering",
+                        "B.Tech Electronics & Communication",
+                        "B.Tech Electrical & Electronics",
+                        "B.Tech Mechanical Engineering",
+                        "B.Tech Chemical Engineering",
+                        "B.Tech Aerospace Engineering",
+                        "BA LLB",
+                        "BCom LLB",
+                        "BSc",
+                        "BCom",
+                        "BBA"
+                    ],
+                    "pg": [
+                        "M.Tech Aerospace Engineering",
+                        "M.Tech Artificial Intelligence & Data Science",
+                        "M.Tech Computer Science & Engineering",
+                        "M.Tech Cyber Security",
+                        "M.Tech VLSI Design",
+                        "MBA (Finance, HR, Operations, Marketing)",
+                        "M.Sc Biotechnology",
+                        "M.Sc Chemistry",
+                        "M.Sc Physics",
+                        "M.Sc Data Science"
+                    ],
+                    "phd": [
+                        "All major disciplines including Engineering, Sciences, Management, Law"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main (B.Tech Stream 1)",
+                    "Class 12 Merit (B.Tech Stream 2)",
+                    "GATE (M.Tech)",
+                    "CAT/XAT/CMAT (MBA)",
+                    "University Entrance Exam (PhD)"
+                ],
+                "admission_criteria": {
+                    "btech_stream1": "30% seats based on JEE Main scores",
+                    "btech_stream2": "70% seats based on 10+2 marks",
+                    "minimum_qualification": "60% in 10+2 with Physics and Mathematics"
+                },
+                "official_website": "https://www.sastra.edu",
+                "fees_link": "https://www.sastra.edu/admissions/fees",
+                "fee_structure": {
+                    "btech_annual": "₹1,20,000+",
+                    "hostel_annual": "₹16,000 - ₹22,000",
+                    "scholarships": "Merit-based and need-based available"
+                },
+                "placements": {
+                    "year": "2024",
+                    "highest_package": "₹43 LPA",
+                    "average_package": "₹7.6 LPA",
+                    "median_package": "₹7.6 LPA",
+                    "placement_percentage": "95.62%",
+                    "companies_visited": 246,
+                    "total_offers": 2175,
+                    "top_recruiters": [
+                        "TCS",
+                        "Infosys",
+                        "Wipro",
+                        "Cognizant",
+                        "IBM",
+                        "Accenture",
+                        "Amazon",
+                        "Microsoft",
+                        "PayPal",
+                        "Goldman Sachs",
+                        "Cisco",
+                        "Zoho",
+                        "Intel",
+                        "Texas Instruments",
+                        "Capgemini",
+                        "HCL"
+                    ]
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 850,
+                    "total": 9558
+                },
+                "patents": {
+                    "filed_2025": 8,
+                    "filed_total": 52,
+                    "granted_2025": 2,
+                    "granted_total": 7,
+                    "patent_topics": [
+                        "nanomaterials",
+                        "antifungals",
+                        "cancer therapeutics",
+                        "ayurvedic formulations"
+                    ]
+                },
+                "funded_projects": {
+                    "count": 45,
+                    "total_value_crores": 92.84,
+                    "agencies": [
+                        "DST",
+                        "DRDO",
+                        "ISRO",
+                        "DBT",
+                        "CSIR"
+                    ]
+                },
+                "centralized_facilities": [
+                    "Central Library (1.5 lakh+ books)",
+                    "Digital Library",
+                    "Central Computer Centre",
+                    "Central Research Facility",
+                    "Incubation Center",
+                    "Technology Business Incubator"
+                ]
+            },
+            "campus": {
+                "area_acres": 232,
+                "library": {
+                    "print_books": "150,000+",
+                    "e_books": "180,000+",
+                    "journals": "10,000+"
+                },
+                "wifi": "Enabled across campus",
+                "hostels": "Separate for boys and girls",
+                "sports_facilities": [
+                    "Cricket ground",
+                    "Football field",
+                    "Basketball courts",
+                    "Tennis courts",
+                    "Indoor sports complex",
+                    "Gymnasium"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Kuruksastra (Cultural Fest)",
+                        "dates": "February 2025",
+                        "description": "Annual cultural festival with music, dance, drama"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Colosseum (Sports Meet)",
+                        "dates": "January 2025",
+                        "sports_included": [
+                            "Cricket",
+                            "Football",
+                            "Basketball",
+                            "Athletics",
+                            "Tennis"
+                        ]
+                    }
+                ],
+                "technical_events": [
+                    {
+                        "event_name": "Daksh (Technical Fest)",
+                        "dates": "March 2025",
+                        "description": "Annual technical symposium"
+                    }
+                ],
+                "extra_curricular": [
+                    "NCC",
+                    "NSS",
+                    "Rotaract Club",
+                    "Entrepreneurship Cell",
+                    "Robotics Club",
+                    "Music Club",
+                    "Dance Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "International Conference on Advanced Materials",
+                        "dates": "June 15-17, 2026",
+                        "deadline": "April 30, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on AI & Data Science",
+                        "dates": "August 10-12, 2026",
+                        "deadline": "June 15, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Research Methodology",
+                        "dates": "May 5-10, 2026",
+                        "topic": "Advanced Research Techniques"
+                    },
+                    {
+                        "name": "FDP on AI in Engineering",
+                        "dates": "July 20-25, 2026",
+                        "topic": "Artificial Intelligence Applications"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Python for Data Science Workshop",
+                        "dates": "April 15-17, 2026",
+                        "target_audience": "Students & Researchers"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-02 10:30:00",
+        "search_count": 1
+    },
+    "IIT Madras": {
+        "data": {
+            "university_name": "IIT Madras",
+            "location": {
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "address": "IIT Madras, Chennai - 600036, India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-02",
+            "data_year": "2025",
+            "data_source": "Internet search",
+            "academic_info": {
+                "nirf_rank": "6th (2025)",
+                "nirf_rank_numeric": 6,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Electrical Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Data Science",
+                        "M.Tech in Aerospace Engineering",
+                        "M.Tech in Biotechnology"
+                    ],
+                    "phd": [
+                        "Nanotechnology",
+                        "Artificial Intelligence",
+                        "Renewable Energy Systems"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Advanced",
+                    "GATE"
+                ],
+                "official_website": "https://www.iitm.ac.in",
+                "fees_link": "https://www.iitm.ac.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "₹45.5 LPA",
+                    "average_package": "₹18.2 LPA",
+                    "top_recruiters": [
+                        "Google",
+                        "Microsoft",
+                        "Amazon",
+                        "Tata Consultancy Services",
+                        "Reliance Industries"
+                    ],
+                    "companies_visited": 150
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 500,
+                    "total": 5000
+                },
+                "patents": {
+                    "filed_2025": 10,
+                    "filed_total": 30,
+                    "granted_2025": 3,
+                    "granted_total": 8
+                },
+                "funded_projects": {
+                    "count": 25,
+                    "total_value_crores": 50.5,
+                    "agencies": [
+                        "DST",
+                        "DRDO",
+                        "ISRO",
+                        "MoE"
+                    ]
+                },
+                "centralized_facilities": [
+                    "High-Performance Computing Centre",
+                    "National Centre for Nanoscience and Nanotechnology"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Sangam 2025",
+                        "dates": "October 15-17, 2025",
+                        "description": "Annual cultural festival featuring music, dance, and drama competitions"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "IIT Madras Sports Festival 2025",
+                        "dates": "November 20-22, 2025",
+                        "sports_included": [
+                            "Cricket",
+                            "Badminton",
+                            "Volleyball",
+                            "Athletics"
+                        ]
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Entrepreneurship Cell",
+                    "Cultural Society"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "IEEE International Conference on AI and Robotics 2025",
+                        "dates": "December 10-12, 2025",
+                        "deadline": "October 15, 2025"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on Sustainable Energy Systems",
+                        "dates": "January 25-27, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Quantum Computing",
+                        "dates": "April 10-12, 2026",
+                        "topic": "Quantum Algorithms and Applications"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "AI for Industry Training",
+                        "dates": "March 20-22, 2026",
+                        "target_audience": "Industry professionals"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-02 21:09:10",
+        "search_count": 1
+    },
+    "ViT Unversity": {
+        "data": {
+            "university_name": "VIT University",
+            "location": {
+                "city": "Vellore",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-02",
+            "academic_info": {
+                "nirf_rank": "10th",
+                "nirf_rank_numeric": 10,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Electrical Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Data Science",
+                        "M.Tech in Artificial Intelligence",
+                        "MBA in Business Analytics"
+                    ],
+                    "phd": [
+                        "PhD in Nanotechnology",
+                        "PhD in Biotechnology",
+                        "PhD in Computer Science"
+                    ]
+                },
+                "entrance_exams": [
+                    "VITEEE"
+                ],
+                "official_website": "https://www.vit.ac.in",
+                "fees_link": "https://www.vit.ac.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "₹45 LPA",
+                    "average_package": "₹12 LPA",
+                    "top_recruiters": [
+                        "TCS",
+                        "Infosys",
+                        "Wipro",
+                        "Amazon",
+                        "Microsoft"
+                    ],
+                    "companies_visited": 150
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 1200,
+                    "total": 15000
+                },
+                "patents": {
+                    "filed_total": 250,
+                    "granted_total": 150
+                },
+                "funded_projects": {
+                    "count": 50,
+                    "total_value_crores": 25
+                },
+                "centralized_facilities": [
+                    "High-Performance Computing Lab",
+                    "Nanotechnology Research Center",
+                    "Biomedical Engineering Lab"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "VIT Fest",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "VIT Cultural Extravaganza",
+                        "dates": "April 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "VIT Sports Meet",
+                        "dates": "February 2026"
+                    },
+                    {
+                        "event_name": "VIT Inter-University Cricket Tournament",
+                        "dates": "May 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Dance Society",
+                    "Entrepreneurship Cell"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "VIT International Conference on AI",
+                        "dates": "June 2026"
+                    },
+                    {
+                        "name": "Global Engineering Summit",
+                        "dates": "August 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "VIT Tech Summit 2026",
+                        "dates": "July 2026"
+                    },
+                    {
+                        "name": "National Conference on Sustainable Development",
+                        "dates": "September 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Emerging Technologies",
+                        "dates": "October 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "AI and Machine Learning Bootcamp",
+                        "dates": "November 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-02 21:16:32",
+        "search_count": 1
+    },
+    "IIT Bombay": {
+        "data": {
+            "university_name": "IIT Bombay ",
+            "location": {
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "1",
+                "nirf_rank_numeric": 1,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Electrical Engineering",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Civil Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Computer Science",
+                        "M.Tech in Electrical Engineering",
+                        "MBA",
+                        "MSc in Data Science"
+                    ],
+                    "phd": [
+                        "Computer Science",
+                        "Mechanical Engineering",
+                        "Materials Science",
+                        "Biotechnology"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Advanced",
+                    "GATE",
+                    "CAT"
+                ],
+                "official_website": "https://www.iitb.ac.in",
+                "fees_link": "https://www.iitb.ac.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "₹40 LPA",
+                    "average_package": "₹15 LPA",
+                    "top_recruiters": [
+                        "Google",
+                        "Microsoft",
+                        "Amazon",
+                        "Tata Consultancy Services",
+                        "Reliance Industries"
+                    ],
+                    "companies_visited": 250
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 1500,
+                    "total": 10000
+                },
+                "patents": {
+                    "filed_total": 200,
+                    "granted_total": 100
+                },
+                "funded_projects": {
+                    "count": 300,
+                    "total_value_crores": 500
+                },
+                "centralized_facilities": [
+                    "Supercomputing Facility",
+                    "Nanofabrication Lab",
+                    "Advanced Materials Research Center"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Techfest",
+                        "dates": "November 2026"
+                    },
+                    {
+                        "event_name": "IITB Fest",
+                        "dates": "December 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Inter-IIT Sports Meet",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "Annual Sports Meet",
+                        "dates": "April 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Dance Club",
+                    "Theatre Society"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "IEEE International Conference on AI",
+                        "dates": "April 2026"
+                    },
+                    {
+                        "name": "IITB Tech Summit",
+                        "dates": "May 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Tech Symposium",
+                        "dates": "June 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Machine Learning",
+                        "dates": "February 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "AI Workshop",
+                        "dates": "March 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-03 01:52:54",
+        "search_count": 1
+    },
+    "NIT Tiruchirappalli": {
+        "data": {
+            "university_name": "NIT Tiruchirappalli",
+            "location": {
+                "city": "Tiruchirappalli",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "22",
+                "nirf_rank_numeric": 22,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science and Engineering",
+                        "B.Tech in Electrical and Electronics Engineering",
+                        "B.Tech in Mechanical Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Data Science",
+                        "M.Tech in Renewable Energy Systems",
+                        "MBA"
+                    ],
+                    "phd": [
+                        "Advanced Materials Science",
+                        "Artificial Intelligence and Machine Learning"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE",
+                    "CAT"
+                ],
+                "official_website": "https://www.nitt.edu",
+                "fees_link": "https://www.nitt.edu/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "40 LPA",
+                    "average_package": "12 LPA",
+                    "top_recruiters": [
+                        "TCS",
+                        "Infosys",
+                        "Wipro",
+                        "Amazon"
+                    ],
+                    "companies_visited": 150
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 300,
+                    "total": 2000
+                },
+                "patents": {
+                    "filed_total": 50,
+                    "granted_total": 20
+                },
+                "funded_projects": {
+                    "count": 120,
+                    "total_value_crores": 15
+                },
+                "centralized_facilities": [
+                    "High-Performance Computing Lab",
+                    "Nanofabrication Facility",
+                    "Advanced Robotics Lab"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "TechFest 2026",
+                        "dates": "February 15-18, 2026"
+                    },
+                    {
+                        "event_name": "Tiruchirappalli Cultural Carnival",
+                        "dates": "March 10-12, 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "NIT Tiruchirappalli Sports Meet",
+                        "dates": "March 20-22, 2026"
+                    },
+                    {
+                        "event_name": "Inter-NIT Basketball Tournament",
+                        "dates": "April 5-7, 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Dance Club",
+                    "Eco-Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "International Conference on Emerging Technologies (ICET 2026)",
+                        "dates": "April 10-12, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on Sustainable Engineering (NCSE 2026)",
+                        "dates": "May 5-7, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on AI in Education",
+                        "dates": "June 15-17, 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Training on IoT Applications",
+                        "dates": "July 20-22, 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-03 13:08:46",
+        "search_count": 1
+    },
+    "NiT arunachala pradesh": {
+        "data": {
+            "university_name": "NiT arunachala pradesh ",
+            "location": {
+                "city": "Unknown",
+                "state": "Unknown",
+                "country": "Unknown"
+            },
+            "country": "Unknown",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "Not available",
+                "nirf_rank_numeric": 0,
+                "courses": {
+                    "ug": [],
+                    "pg": [],
+                    "phd": []
+                },
+                "entrance_exams": [],
+                "official_website": "#",
+                "fees_link": "#",
+                "placements": {
+                    "year": "N/A",
+                    "highest_package": "N/A",
+                    "average_package": "N/A",
+                    "top_recruiters": [],
+                    "companies_visited": 0
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 0,
+                    "total": 0
+                },
+                "patents": {
+                    "filed_total": 0,
+                    "granted_total": 0
+                },
+                "funded_projects": {
+                    "count": 0,
+                    "total_value_crores": 0
+                },
+                "centralized_facilities": []
+            },
+            "sports_cultural": {
+                "cultural_events": [],
+                "sports_events": [],
+                "extra_curricular": []
+            },
+            "upcoming_events": {
+                "international_conferences": [],
+                "national_conferences": [],
+                "faculty_development_programs": [],
+                "training_events": []
+            }
+        },
+        "last_accessed": "2026-03-03 13:16:07",
+        "search_count": 1
+    },
+    "Nit silchar": {
+        "data": {
+            "university_name": "Nit silchar ",
+            "location": {
+                "city": "Silchar",
+                "state": "Assam",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "70-80",
+                "nirf_rank_numeric": 75,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Electrical Engineering",
+                        "B.Tech in Mechanical Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Data Science",
+                        "M.Tech in Power Systems",
+                        "M.Tech in Civil Engineering"
+                    ],
+                    "phd": [
+                        "Computer Science",
+                        "Electrical Engineering",
+                        "Materials Science"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE",
+                    "NPTEL"
+                ],
+                "official_website": "https://www.nitsilchar.ac.in",
+                "fees_link": "https://www.nitsilchar.ac.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "₹25 LPA",
+                    "average_package": "₹10 LPA",
+                    "top_recruiters": [
+                        "TCS",
+                        "Infosys",
+                        "Wipro",
+                        "L&T",
+                        "Reliance Jio"
+                    ],
+                    "companies_visited": 150
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 150,
+                    "total": 1000
+                },
+                "patents": {
+                    "filed_total": 5,
+                    "granted_total": 2
+                },
+                "funded_projects": {
+                    "count": 20,
+                    "total_value_crores": 5
+                },
+                "centralized_facilities": [
+                    "Advanced Computing Lab",
+                    "Clean Energy Research Center",
+                    "Robotics and Automation Lab"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "TechFest 2026",
+                        "dates": "April 15-17, 2026"
+                    },
+                    {
+                        "event_name": "Silchar Cultural Carnival",
+                        "dates": "May 5-7, 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Inter-NIT Sports Meet",
+                        "dates": "June 10-12, 2026"
+                    },
+                    {
+                        "event_name": "Silchar University Cricket Tournament",
+                        "dates": "March 25-27, 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Literary Society",
+                    "Environmental Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "Global AI Summit 2026",
+                        "dates": "August 20-22, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Engineering Research Symposium",
+                        "dates": "September 10-12, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Emerging Technologies",
+                        "dates": "July 5-7, 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Industry-Academia Collaboration Workshop",
+                        "dates": "November 15-17, 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-03 13:16:52",
+        "search_count": 1
+    },
+    "climpson university": {
+        "data": {
+            "university_name": "climpson university ",
+            "location": {
+                "city": "",
+                "state": "",
+                "country": ""
+            },
+            "country": "Other",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "Not Applicable",
+                "nirf_rank_numeric": 0,
+                "courses": {
+                    "ug": [],
+                    "pg": [],
+                    "phd": []
+                },
+                "entrance_exams": [],
+                "official_website": "",
+                "fees_link": "",
+                "placements": {
+                    "year": "",
+                    "highest_package": "Not Applicable",
+                    "average_package": "Not Applicable",
+                    "top_recruiters": [],
+                    "companies_visited": 0
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 0,
+                    "total": 0
+                },
+                "patents": {
+                    "filed_total": 0,
+                    "granted_total": 0
+                },
+                "funded_projects": {
+                    "count": 0,
+                    "total_value_crores": 0
+                },
+                "centralized_facilities": []
+            },
+            "sports_cultural": {
+                "cultural_events": [],
+                "sports_events": [],
+                "extra_curricular": []
+            },
+            "upcoming_events": {
+                "international_conferences": [],
+                "national_conferences": [],
+                "faculty_development_programs": [],
+                "training_events": []
+            }
+        },
+        "last_accessed": "2026-03-03 13:21:56",
+        "search_count": 1
+    },
+    "oxford": {
+        "data": {
+            "university_name": "oxford",
+            "location": {
+                "city": "Oxford",
+                "state": "Oxfordshire",
+                "country": "United Kingdom"
+            },
+            "country": "Other",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "Not Applicable",
+                "nirf_rank_numeric": 0,
+                "courses": {
+                    "ug": [
+                        "Computer Science",
+                        "Philosophy",
+                        "Medicine"
+                    ],
+                    "pg": [
+                        "MSc in Artificial Intelligence",
+                        "MPhil in Economics",
+                        "MSt in Literature"
+                    ],
+                    "phd": [
+                        "Quantum Computing",
+                        "Environmental Science",
+                        "Digital Humanities"
+                    ]
+                },
+                "entrance_exams": [
+                    "SAT",
+                    "IELTS",
+                    "TOEFL",
+                    "GRE"
+                ],
+                "official_website": "https://www.ox.ac.uk",
+                "fees_link": "https://www.ox.ac.uk/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "£62,000",
+                    "average_package": "£41,500",
+                    "top_recruiters": [
+                        "Google",
+                        "Microsoft",
+                        "Goldman Sachs",
+                        "NHS"
+                    ],
+                    "companies_visited": 145
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 12450,
+                    "total": 158000
+                },
+                "patents": {
+                    "filed_total": 280,
+                    "granted_total": 210
+                },
+                "funded_projects": {
+                    "count": 380,
+                    "total_value_crores": 1450
+                },
+                "centralized_facilities": [
+                    "Oxford Nanopore Technologies",
+                    "Oxford University Press",
+                    "Wellcome Centre for Human Genetics"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Oxford Literary Festival",
+                        "dates": "March 15-20, 2026"
+                    },
+                    {
+                        "event_name": "Oxford Music Festival",
+                        "dates": "April 10-12, 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Varsity Match (Rugby)",
+                        "dates": "December 18, 2026"
+                    },
+                    {
+                        "event_name": "Oxford Boat Race",
+                        "dates": "March 25, 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Rowing",
+                    "Debating",
+                    "Theatre Society"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "Global AI Summit 2026",
+                        "dates": "June 5-7, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "UK Higher Education Research Conference",
+                        "dates": "April 22-24, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "Research Methodology Workshop",
+                        "dates": "May 10-12, 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Data Science Bootcamp",
+                        "dates": "August 15-20, 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-03 13:24:48",
+        "search_count": 1
+    },
+    "SSN College": {
+        "data": {
+            "university_name": "SSN College",
+            "location": {
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "101-150",
+                "qs_rank": "Not Applicable",
+                "nirf_rank_numeric": 125,
+                "qs_rank_numeric": 0,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Electrical Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Data Science",
+                        "MBA in Business Administration",
+                        "M.Tech in Artificial Intelligence"
+                    ],
+                    "phd": [
+                        "AI and Machine Learning",
+                        "Advanced Materials Science",
+                        "Sustainable Energy Systems"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE",
+                    "CAT",
+                    "TANCET"
+                ],
+                "official_website": "https://www.ssn.edu.in",
+                "fees_link": "https://www.ssn.edu.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "42 LPA",
+                    "average_package": "18 LPA",
+                    "top_recruiters": [
+                        "TCS",
+                        "Infosys",
+                        "Wipro",
+                        "Amazon",
+                        "Microsoft"
+                    ],
+                    "companies_visited": 250
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 180,
+                    "total": 1200
+                },
+                "patents": {
+                    "filed_total": 60,
+                    "granted_total": 25
+                },
+                "funded_projects": {
+                    "count": 35,
+                    "total_value_crores": 6.2
+                },
+                "centralized_facilities": [
+                    "Advanced Robotics Lab",
+                    "National Centre for Nanotechnology",
+                    "High-Performance Computing Cluster"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "TechFest 2026",
+                        "dates": "March 15-17, 2026"
+                    },
+                    {
+                        "event_name": "SSN Cultural Carnival",
+                        "dates": "April 5-7, 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Annual Sports Meet",
+                        "dates": "February 20-22, 2026"
+                    },
+                    {
+                        "event_name": "Inter-College Cricket Tournament",
+                        "dates": "March 10-12, 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Debate Society",
+                    "Environmental Sustainability Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "IEEE International Conference on AI",
+                        "dates": "April 10-12, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on Sustainable Engineering",
+                        "dates": "May 5-6, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Industry 4.0",
+                        "dates": "March 25-27, 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Certified Data Science Training",
+                        "dates": "June 1-3, 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-03 18:32:23",
+        "search_count": 1
+    },
+    "IIT TIRUPATHI": {
+        "data": {
+            "university_name": "IIT TIRUPATHI",
+            "location": {
+                "city": "Tirupati",
+                "state": "Andhra Pradesh",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-03",
+            "academic_info": {
+                "nirf_rank": "Not Applicable",
+                "qs_rank": "Not Applicable",
+                "nirf_rank_numeric": 0,
+                "qs_rank_numeric": 0,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Electrical Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Data Science",
+                        "MBA in Business Administration",
+                        "M.Tech in Artificial Intelligence"
+                    ],
+                    "phd": [
+                        "PhD in Computer Science",
+                        "PhD in Physics",
+                        "PhD in Mathematics"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE",
+                    "CAT"
+                ],
+                "official_website": "https://www.iittp.ac.in",
+                "fees_link": "https://www.iittp.ac.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "45 LPA",
+                    "average_package": "15 LPA",
+                    "top_recruiters": [
+                        "Microsoft",
+                        "Google",
+                        "Amazon"
+                    ],
+                    "companies_visited": 150
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 500,
+                    "total": 5000
+                },
+                "patents": {
+                    "filed_total": 25,
+                    "granted_total": 10
+                },
+                "funded_projects": {
+                    "count": 15,
+                    "total_value_crores": 45.5
+                },
+                "centralized_facilities": [
+                    "Advanced Robotics Lab",
+                    "National Centre for Nanotechnology",
+                    "High-Performance Computing Cluster"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Cultural Fest 2026",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "Music Festival",
+                        "dates": "April 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Sports Meet 2026",
+                        "dates": "January 2026"
+                    },
+                    {
+                        "event_name": "Cricket Tournament",
+                        "dates": "February 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "NCC",
+                    "NSS",
+                    "Robotics Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "ICML 2026",
+                        "dates": "July 2026"
+                    },
+                    {
+                        "name": "NeurIPS 2026",
+                        "dates": "December 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Science Congress",
+                        "dates": "January 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on AI",
+                        "dates": "June 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Python Workshop",
+                        "dates": "May 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-03 18:39:48",
+        "search_count": 1
+    },
+    "NiT Pondicherry": {
+        "data": {
+            "university_name": "NiT Pondicherry ",
+            "location": {
+                "city": "Puducherry",
+                "state": "Puducherry",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-08",
+            "academic_info": {
+                "nirf_rank": "47",
+                "qs_rank": "N/A",
+                "nirf_rank_numeric": 47,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Civil Engineering",
+                        "B.Tech in Computer Science and Engineering",
+                        "B.Tech in Electrical and Electronics Engineering",
+                        "B.Tech in Electronics and Communication Engineering",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Chemical Engineering",
+                        "B.Tech in Metallurgical and Materials Engineering",
+                        "B.Tech in Biotechnology",
+                        "B.Tech in Information Technology"
+                    ],
+                    "pg": [
+                        "M.Tech in Computer Science and Engineering",
+                        "M.Tech in Electrical and Electronics Engineering",
+                        "M.Tech in Electronics and Communication Engineering",
+                        "M.Tech in Mechanical Engineering",
+                        "M.Tech in Chemical Engineering",
+                        "M.Tech in Metallurgical and Materials Engineering",
+                        "M.Tech in Biotechnology",
+                        "M.Tech in Information Technology",
+                        "M.Tech in Civil Engineering",
+                        "M.Tech in Power Systems",
+                        "M.Tech in Control Systems",
+                        "M.Tech in Power Electronics and Drives",
+                        "M.Tech in Renewable Energy Systems",
+                        "M.Tech in VLSI Design",
+                        "M.Tech in Embedded Systems",
+                        "M.Tech in Artificial Intelligence and Machine Learning",
+                        "M.Tech in Data Science",
+                        "M.Tech in Cyber Security",
+                        "M.Tech in Blockchain Technology",
+                        "M.Tech in Internet of Things",
+                        "M.Tech in Cloud Computing",
+                        "M.Tech in Big Data Analytics",
+                        "M.Tech in Software Engineering"
+                    ],
+                    "phd": [
+                        "Civil Engineering",
+                        "Computer Science and Engineering",
+                        "Electrical and Electronics Engineering",
+                        "Electronics and Communication Engineering",
+                        "Mechanical Engineering",
+                        "Chemical Engineering",
+                        "Metallurgical and Materials Engineering",
+                        "Biotechnology",
+                        "Information Technology",
+                        "Power Systems",
+                        "Control Systems",
+                        "Power Electronics and Drives",
+                        "Renewable Energy Systems",
+                        "VLSI Design",
+                        "Embedded Systems",
+                        "Artificial Intelligence and Machine Learning",
+                        "Data Science",
+                        "Cyber Security",
+                        "Blockchain Technology",
+                        "Internet of Things",
+                        "Cloud Computing",
+                        "Big Data Analytics",
+                        "Software Engineering"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE"
+                ],
+                "official_website": "https://www.nitp.ac.in/",
+                "fees_link": "https://www.nitp.ac.in/facilities/fees/",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "45 LPA",
+                    "average_package": "12 LPA",
+                    "top_recruiters": [
+                        "TCS",
+                        "Infosys",
+                        "Wipro",
+                        "Cognizant",
+                        "Amazon",
+                        "Google",
+                        "Microsoft",
+                        "Accenture",
+                        "Deloitte",
+                        "HCL",
+                        "Tech Mahindra",
+                        "Capgemini",
+                        "IBM",
+                        "Oracle",
+                        "SAP"
+                    ],
+                    "companies_visited": 150
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 200,
+                    "total": 1500
+                },
+                "patents": {
+                    "filed_total": 50,
+                    "granted_total": 20
+                },
+                "funded_projects": {
+                    "count": 30,
+                    "total_value_crores": 15
+                },
+                "centralized_facilities": [
+                    "Advanced Computing and Data Analytics Lab",
+                    "Centre for Renewable Energy",
+                    "Centre for VLSI Design",
+                    "Centre for Embedded Systems",
+                    "Centre for Artificial Intelligence and Machine Learning",
+                    "Centre for Cyber Security",
+                    "Centre for Blockchain Technology",
+                    "Centre for Internet of Things",
+                    "Centre for Cloud Computing",
+                    "Centre for Big Data Analytics",
+                    "Centre for Software Engineering",
+                    "Centre for Power Systems",
+                    "Centre for Control Systems",
+                    "Centre for Power Electronics and Drives",
+                    "Centre for Renewable Energy Systems",
+                    "Centre for Materials Science",
+                    "Centre for Biotechnology",
+                    "Centre for Chemical Engineering",
+                    "Centre for Mechanical Engineering",
+                    "Centre for Civil Engineering",
+                    "Centre for Electrical and Electronics Engineering",
+                    "Centre for Electronics and Communication Engineering",
+                    "Centre for Information Technology",
+                    "National Centre for Nanoscience and Nanotechnology",
+                    "Centre for Advanced Materials",
+                    "Centre for Sustainable Development",
+                    "Centre for Innovation and Entrepreneurship",
+                    "Centre for Environmental Sciences",
+                    "Centre for Human Resource Development",
+                    "Centre for Quality Assurance",
+                    "Centre for Research and Development"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "NITP Fest",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "TechFest",
+                        "dates": "October 2026"
+                    },
+                    {
+                        "event_name": "Cultural Extravaganza",
+                        "dates": "February 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Inter-Departmental Sports Meet",
+                        "dates": "November 2026"
+                    },
+                    {
+                        "event_name": "Annual Sports Day",
+                        "dates": "December 2026"
+                    },
+                    {
+                        "event_name": "Pondicherry University Sports Festival",
+                        "dates": "January 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Computer Science Club",
+                    "Electronics Club",
+                    "Mechanical Club",
+                    "Chemical Club",
+                    "Biotechnology Club",
+                    "Civil Club",
+                    "Entrepreneurship Club",
+                    "Literary Club",
+                    "Music Club",
+                    "Dance Club",
+                    "Photography Club",
+                    "Sports Club",
+                    "Cultural Club",
+                    "Robotics Club",
+                    "AI Club",
+                    "Data Science Club",
+                    "Cyber Security Club",
+                    "Blockchain Club",
+                    "IoT Club",
+                    "Cloud Computing Club",
+                    "Big Data Club",
+                    "Software Engineering Club",
+                    "Environmental Club",
+                    "Social Service Club",
+                    "Debate Club",
+                    "Theatre Club",
+                    "Film Club",
+                    "Anime Club",
+                    "Gaming Club",
+                    "Yoga Club",
+                    "Fitness Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "International Conference on Artificial Intelligence and Machine Learning",
+                        "dates": "June 2026"
+                    },
+                    {
+                        "name": "International Conference on Renewable Energy",
+                        "dates": "August 2026"
+                    },
+                    {
+                        "name": "World Congress on Internet of Things",
+                        "dates": "September 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on VLSI Design",
+                        "dates": "May 2026"
+                    },
+                    {
+                        "name": "National Conference on Embedded Systems",
+                        "dates": "July 2026"
+                    },
+                    {
+                        "name": "National Conference on Data Science",
+                        "dates": "November 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on Advanced Computing",
+                        "dates": "April 2026"
+                    },
+                    {
+                        "name": "FDP on Renewable Energy",
+                        "dates": "September 2026"
+                    },
+                    {
+                        "name": "FDP on Cyber Security",
+                        "dates": "February 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Training on Blockchain Technology",
+                        "dates": "February 2026"
+                    },
+                    {
+                        "name": "Training on Cyber Security",
+                        "dates": "May 2026"
+                    },
+                    {
+                        "name": "Training on Cloud Computing",
+                        "dates": "August 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-08 21:51:03",
+        "search_count": 1
+    },
+    "NiT Warangal": {
+        "data": {
+            "university_name": "NiT Warangal ",
+            "location": {
+                "city": "Unknown",
+                "state": "Unknown",
+                "country": "Unknown"
+            },
+            "country": "Unknown",
+            "last_updated": "2026-03-08",
+            "academic_info": {
+                "nirf_rank": "Not available",
+                "qs_rank": "Not available",
+                "nirf_rank_numeric": 0,
+                "courses": {
+                    "ug": [],
+                    "pg": [],
+                    "phd": []
+                },
+                "entrance_exams": [],
+                "official_website": "#",
+                "fees_link": "#",
+                "placements": {
+                    "year": "N/A",
+                    "highest_package": "N/A",
+                    "average_package": "N/A",
+                    "top_recruiters": [],
+                    "companies_visited": 0
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 0,
+                    "total": 0
+                },
+                "patents": {
+                    "filed_total": 0,
+                    "granted_total": 0
+                },
+                "funded_projects": {
+                    "count": 0,
+                    "total_value_crores": 0
+                },
+                "centralized_facilities": []
+            },
+            "sports_cultural": {
+                "cultural_events": [],
+                "sports_events": [],
+                "extra_curricular": []
+            },
+            "upcoming_events": {
+                "international_conferences": [],
+                "national_conferences": [],
+                "faculty_development_programs": [],
+                "training_events": []
+            }
+        },
+        "last_accessed": "2026-03-08 22:01:46",
+        "search_count": 1
+    },
+    "NiT calicut": {
+        "data": {
+            "university_name": "NiT calicut ",
+            "location": {
+                "city": "Calicut",
+                "state": "Kerala",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-08",
+            "academic_info": {
+                "nirf_rank": "Rank 15",
+                "nirf_rank_numeric": 15,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science and Engineering",
+                        "B.Tech in Electrical Engineering",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Civil Engineering",
+                        "B.Tech in Chemical Engineering",
+                        "B.Tech in Electronics and Communication Engineering",
+                        "B.Tech in Biotechnology",
+                        "B.Tech in Information Technology"
+                    ],
+                    "pg": [
+                        "M.Tech in Computer Science and Engineering",
+                        "M.Tech in Electrical Engineering",
+                        "M.Tech in Mechanical Engineering",
+                        "M.Tech in Civil Engineering",
+                        "M.Tech in Chemical Engineering",
+                        "M.Tech in Electronics and Communication Engineering",
+                        "M.Tech in Biotechnology",
+                        "M.Tech in Information Technology"
+                    ],
+                    "phd": [
+                        "PhD in Computer Science and Engineering",
+                        "PhD in Electrical Engineering",
+                        "PhD in Mechanical Engineering",
+                        "PhD in Civil Engineering",
+                        "PhD in Chemical Engineering",
+                        "PhD in Electronics and Communication Engineering",
+                        "PhD in Biotechnology",
+                        "PhD in Information Technology"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE",
+                    "CAT",
+                    "XAT",
+                    "MAT",
+                    "CMAT",
+                    "NET",
+                    "SET"
+                ],
+                "official_website": "https://www.nitc.ac.in",
+                "fees_link": "https://www.nitc.ac.in/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "45 LPA",
+                    "average_package": "12 LPA",
+                    "top_recruiters": [
+                        "Tata Consultancy Services",
+                        "Infosys",
+                        "Wipro",
+                        "HCL",
+                        "Tech Mahindra",
+                        "Accenture",
+                        "Capgemini",
+                        "Cognizant"
+                    ],
+                    "companies_visited": 120
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 250,
+                    "total": 1500
+                },
+                "patents": {
+                    "filed_total": 50,
+                    "granted_total": 30
+                },
+                "funded_projects": {
+                    "count": 30,
+                    "total_value_crores": 15.5
+                },
+                "centralized_facilities": [
+                    "Advanced Computing Facility",
+                    "Material Science Lab",
+                    "Robotics Lab",
+                    "Nanotechnology Lab",
+                    "Biotechnology Lab",
+                    "Environmental Science Lab",
+                    "Electronics and Communication Lab"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Fest",
+                        "dates": "March 2025"
+                    },
+                    {
+                        "event_name": "Cultural Day",
+                        "dates": "October 2025"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Annual Sports Meet",
+                        "dates": "November 2025"
+                    },
+                    {
+                        "event_name": "Inter-Departmental Tournaments",
+                        "dates": "September 2025"
+                    }
+                ],
+                "extra_curricular": [
+                    "Debate Club",
+                    "Dance Club",
+                    "Music Club",
+                    "Theater Club",
+                    "Photography Club",
+                    "Eco Club",
+                    "Robotics Club",
+                    "Coding Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "International Conference on Engineering",
+                        "dates": "June 2025"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on Technology",
+                        "dates": "August 2025"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "Workshop on Emerging Technologies",
+                        "dates": "May 2025"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Training on AI and ML",
+                        "dates": "April 2025"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-08 22:13:35",
+        "search_count": 1
+    },
+    "IIIT Dharwad": {
+        "data": {
+            "university_name": "IIIT Dharwad",
+            "location": {
+                "city": "Dharwad",
+                "state": "Karnataka",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-08",
+            "academic_info": {
+                "nirf_rank": "127 (Engineering Category)",
+                "nirf_rank_numeric": 127,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Computer Science",
+                        "B.Tech in Artificial Intelligence",
+                        "B.Tech in Data Science",
+                        "B.Tech in Electronics & Communication",
+                        "B.Tech in Computer Engineering",
+                        "B.Tech in Information Technology",
+                        "B.Tech in Cyber Security",
+                        "B.Tech in Mathematics & Computing"
+                    ],
+                    "pg": [
+                        "M.Tech in Computer Science",
+                        "M.Tech in Artificial Intelligence",
+                        "M.Tech in Data Science",
+                        "M.Tech in Electronics & Communication",
+                        "M.Tech in Cyber Security",
+                        "M.Tech in Information Technology",
+                        "M.Tech in Mathematics & Computing",
+                        "M.Tech in Software Engineering"
+                    ],
+                    "phd": [
+                        "Machine Learning",
+                        "Natural Language Processing",
+                        "Computer Vision",
+                        "Cyber Security",
+                        "Data Science",
+                        "Network Security",
+                        "Quantum Computing",
+                        "Human-Computer Interaction"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Main",
+                    "GATE",
+                    "IIITD Entrance Exam",
+                    "CAT",
+                    "XAT",
+                    "GMAT",
+                    "GRE",
+                    "SAT"
+                ],
+                "official_website": "https://www.iiitd.ac.in",
+                "fees_link": "https://www.iiitd.ac.in/admissions/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "₹22.5 LPA",
+                    "average_package": "₹12.8 LPA",
+                    "top_recruiters": [
+                        "Google",
+                        "Microsoft",
+                        "Amazon",
+                        "Samsung",
+                        "Tata Consultancy Services",
+                        "Infosys",
+                        "Wipro",
+                        "Oracle"
+                    ],
+                    "companies_visited": 127
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 187,
+                    "total": 1243
+                },
+                "patents": {
+                    "filed_total": 12,
+                    "granted_total": 7
+                },
+                "funded_projects": {
+                    "count": 22,
+                    "total_value_crores": 68.5
+                },
+                "centralized_facilities": [
+                    "High-Performance Computing Cluster",
+                    "Robotics Lab",
+                    "AI & ML Research Center",
+                    "Cyber Security Lab",
+                    "Data Science Hub",
+                    "VLSI Design Lab",
+                    "Advanced Networking Lab"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Vikram",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "Tech Fest",
+                        "dates": "February 2026"
+                    },
+                    {
+                        "event_name": "Cultural Carnival",
+                        "dates": "April 2026"
+                    },
+                    {
+                        "event_name": "Music Festival",
+                        "dates": "January 2026"
+                    },
+                    {
+                        "event_name": "Dance Marathon",
+                        "dates": "May 2026"
+                    },
+                    {
+                        "event_name": "Theater Festival",
+                        "dates": "June 2026"
+                    },
+                    {
+                        "event_name": "Art Exhibition",
+                        "dates": "July 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Inter-University Sports Meet",
+                        "dates": "February 2026"
+                    },
+                    {
+                        "event_name": "Annual Cricket Tournament",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "Football League",
+                        "dates": "April 2026"
+                    },
+                    {
+                        "event_name": "Basketball Championship",
+                        "dates": "May 2026"
+                    },
+                    {
+                        "event_name": "Swimming Competition",
+                        "dates": "June 2026"
+                    },
+                    {
+                        "event_name": "Athletics Meet",
+                        "dates": "July 2026"
+                    },
+                    {
+                        "event_name": "Table Tennis Tournament",
+                        "dates": "August 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Coding Club",
+                    "Robotics Society",
+                    "Debate Club",
+                    "Photography Club",
+                    "Cultural Society",
+                    "Sports Association",
+                    "Entrepreneurship Cell",
+                    "Environmental Club"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "IEEE International Conference on AI",
+                        "dates": "April 15-17, 2026"
+                    },
+                    {
+                        "name": "ACM SIGGRAPH Asia",
+                        "dates": "May 20-22, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on Data Science",
+                        "dates": "March 10-12, 2026"
+                    },
+                    {
+                        "name": "Indian Computing Conference",
+                        "dates": "June 5-7, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "AI & ML Faculty Training",
+                        "dates": "February 28, 2026"
+                    },
+                    {
+                        "name": "Cyber Security Workshop",
+                        "dates": "April 5, 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Cloud Computing Certification",
+                        "dates": "March 20-25, 2026"
+                    },
+                    {
+                        "name": "Blockchain Development Bootcamp",
+                        "dates": "May 10-15, 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-08 23:47:03",
+        "search_count": 1
+    }
+}
