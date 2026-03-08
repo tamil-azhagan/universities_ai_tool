@@ -186,85 +186,86 @@ class UniversityInfoSystem:
         with open(LOCAL_JSON_PATH, 'w', encoding='utf-8') as f:
             json.dump(self.master_data, f, indent=4, ensure_ascii=False)
     
+   
     def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
         prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
-Search for latest information about "{university_name}".
-
-CURRENT YEAR: 2026
-
-Return ONLY valid JSON in this exact structure (include 7-8 items per list where applicable):
-
-{{
-    "university_name": "{university_name}",
-    "location": {{
-        "city": "City name",
-        "state": "State name",
-        "country": "Country"
-    }},
-    "country": "India/Other",
-    "last_updated": "{datetime.now().strftime('%Y-%m-%d')}",
+    Search for latest information about "{university_name}".
     
-    "academic_info": {{
-        "nirf_rank": "Rank or Not Applicable",
-        "nirf_rank_numeric": 0,
-        "courses": {{
-            "ug": ["8 main UG courses"],
-            "pg": ["8 main PG courses"],
-            "phd": ["8 main PhD areas"]
+    CURRENT YEAR: 2026
+    
+    Return ONLY valid JSON in this exact structure (include 7-8 items per list where applicable):
+    
+    {{
+        "university_name": "{university_name}",
+        "location": {{
+            "city": "City name",
+            "state": "State name",
+            "country": "Country"
         }},
-        "entrance_exams": ["8 main entrance exams"],
-        "official_website": "URL",
-        "fees_link": "URL",
-        "placements": {{
-            "year": "2025",
-            "highest_package": "Amount",
-            "average_package": "Amount",
-            "top_recruiters": ["8 top companies"],
-            "companies_visited": 0
+        "country": "India/Other",
+        "last_updated": "{datetime.now().strftime('%Y-%m-%d')}",
+        
+        "academic_info": {{
+            "nirf_rank": "Rank or Not Applicable",
+            "nirf_rank_numeric": 0,
+            "courses": {{
+                "ug": ["8 main UG courses"],
+                "pg": ["8 main PG courses"],
+                "phd": ["8 main PhD areas"]
+            }},
+            "entrance_exams": ["8 main entrance exams"],
+            "official_website": "URL",
+            "fees_link": "URL",
+            "placements": {{
+                "year": "2025",
+                "highest_package": "Amount",
+                "average_package": "Amount",
+                "top_recruiters": ["8 top companies"],
+                "companies_visited": 0
+            }}
+        }},
+        
+        "research_info": {{
+            "publications": {{
+                "last_year_2025": 0,
+                "total": 0
+            }},
+            "patents": {{
+                "filed_total": 0,
+                "granted_total": 0
+            }},
+            "funded_projects": {{
+                "count": 0,
+                "total_value_crores": 0
+            }},
+            "centralized_facilities": ["7 main facilities"]
+        }},
+        
+        "sports_cultural": {{
+            "cultural_events": [
+                {{"event_name": "Event", "dates": "Dates"}}
+            ],
+            "sports_events": [
+                {{"event_name": "Event", "dates": "Dates"}}
+            ],
+            "extra_curricular": ["8 main activities"]
+        }},
+        
+        "upcoming_events": {{
+            "international_conferences": [
+                {{"name": "Conference", "dates": "Dates"}}
+            ],
+            "national_conferences": [
+                {{"name": "Conference", "dates": "Dates"}}
+            ],
+            "faculty_development_programs": [
+                {{"name": "FDP", "dates": "Dates"}}
+            ],
+            "training_events": [
+                {{"name": "Training", "dates": "Dates"}}
+            ]
         }}
-    }},
-    
-    "research_info": {{
-        "publications": {{
-            "last_year_2025": 0,
-            "total": 0
-        }},
-        "patents": {{
-            "filed_total": 0,
-            "granted_total": 0
-        }},
-        "funded_projects": {{
-            "count": 0,
-            "total_value_crores": 0
-        }},
-        "centralized_facilities": ["7 main facilities"]
-    }},
-    
-    "sports_cultural": {{
-        "cultural_events": [
-            {{"event_name": "Event", "dates": "Dates"}}
-        ],
-        "sports_events": [
-            {{"event_name": "Event", "dates": "Dates"}}
-        ],
-        "extra_curricular": ["8 main activities"]
-    }},
-    
-    "upcoming_events": {{
-        "international_conferences": [
-            {{"name": "Conference", "dates": "Dates"}}
-        ],
-        "national_conferences": [
-            {{"name": "Conference", "dates": "Dates"}}
-        ],
-        "faculty_development_programs": [
-            {{"name": "FDP", "dates": "Dates"}}
-        ],
-        "training_events": [
-            {{"name": "Training", "dates": "Dates"}}
-        ]
-    }}
-}}"""
+    }}"""
         
         payload = {
             "model": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -274,48 +275,62 @@ Return ONLY valid JSON in this exact structure (include 7-8 items per list where
         }
         
         try:
+            st.write("Debug - Sending request to OpenRouter...")
             response = requests.post(OPENROUTER_URL, headers=HEADERS, json=payload, timeout=60)
+            
+            st.write(f"Debug - Status Code: {response.status_code}")
+            st.write(f"Debug - Response Headers: {dict(response.headers)}")
+            
             if response.status_code == 200:
                 result = response.json()
                 content = result["choices"][0]["message"]["content"]
+                st.write("Debug - Raw Response received, length:", len(content))
+                
                 json_start = content.find('{')
                 json_end = content.rfind('}') + 1
                 if json_start != -1 and json_end != 0:
-                    return json.loads(content[json_start:json_end])
+                    try:
+                        data = json.loads(content[json_start:json_end])
+                        st.write("Debug - Successfully parsed JSON")
+                        return data
+                    except json.JSONDecodeError as e:
+                        st.write(f"Debug - JSON Parse Error: {e}")
+                        st.write("Debug - Content that failed:", content[:500])
+                else:
+                    st.write("Debug - No JSON found in response")
+                    st.write("Debug - Response content:", content[:500])
+            else:
+                st.write(f"Debug - Error Response: {response.text}")
+                
             return self.create_error_response(university_name)
-        except:
+        except Exception as e:
+            st.write(f"Debug - Exception: {str(e)}")
+            import traceback
+            st.write(f"Debug - Traceback: {traceback.format_exc()}")
             return self.create_error_response(university_name)
-    
-    def create_error_response(self, university_name: str) -> Dict[str, Any]:
-        return {
-            "university_name": university_name,
-            "location": {"city": "Unknown", "state": "Unknown", "country": "Unknown"},
-            "country": "Unknown",
-            "last_updated": datetime.now().strftime('%Y-%m-%d'),
-            "academic_info": {
-                "nirf_rank": "Not available",
-                "nirf_rank_numeric": 0,
-                "courses": {"ug": [], "pg": [], "phd": []},
-                "entrance_exams": [],
-                "official_website": "#",
-                "fees_link": "#",
-                "placements": {"year": "N/A", "highest_package": "N/A", "average_package": "N/A", "top_recruiters": [], "companies_visited": 0}
-            },
-            "research_info": {
-                "publications": {"last_year_2025": 0, "total": 0},
-                "patents": {"filed_total": 0, "granted_total": 0},
-                "funded_projects": {"count": 0, "total_value_crores": 0},
-                "centralized_facilities": []
-            },
-            "sports_cultural": {"cultural_events": [], "sports_events": [], "extra_curricular": []},
-            "upcoming_events": {
-                "international_conferences": [],
-                "national_conferences": [],
-                "faculty_development_programs": [],
-                "training_events": []
-            }
-        }
-    
+        
+        def create_error_response(self, university_name: str) -> Dict[str, Any]:
+            return {
+                "university_name": university_name,
+                "location": {"city": "Unknown", "state": "Unknown", "country": "Unknown"},
+                "country": "Unknown",
+                "last_updated": datetime.now().strftime('%Y-%m-%d'),
+                "academic_info": {
+                    "nirf_rank": "Not available",
+                    "nirf_rank_numeric": 0,
+                    "courses": {"ug": [], "pg": [], "phd": []},
+                    "entrance_exams": [],
+                    "official_website": "#",
+                    "fees_link": "#",
+                    "placements": {"year": "N/A", "highest_package": "N/A", "average_package": "N/A", "top_recruiters": [], "companies_visited": 0}
+                },
+                "research_info": {
+                    "publications": {"last_year_2025": 0, "total": 0},
+                    "patents": {"filed_total": 0, "granted_total": 0},
+                    "funded_projects": {"count": 0, "total_value_crores": 0},
+                    "centralized_facilities": []
+        
+        
     def create_comparison_charts(self, uni_name: str, uni_data: Dict):
         # Get SASTRA data from master JSON
         sastra_data = self.master_data.get("SASTRA University", {}).get("data", {})
@@ -708,6 +723,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
