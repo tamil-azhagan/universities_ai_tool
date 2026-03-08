@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # API Key directly in script
-API_KEY = "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"
+API_KEY = st.secrets["OPENROUTER_API_KEY"]
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 HEADERS = {
@@ -671,6 +671,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
