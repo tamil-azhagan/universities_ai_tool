@@ -187,86 +187,83 @@ class UniversityInfoSystem:
             json.dump(self.master_data, f, indent=4, ensure_ascii=False)
     
    
-    def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
-        prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
-    Search for latest information about "{university_name}".
-    
-    CURRENT YEAR: 2026
-    
-    Return ONLY valid JSON in this exact structure (include 7-8 items per list where applicable):
-    
-    {{
-        "university_name": "{university_name}",
-        "location": {{
-            "city": "City name",
-            "state": "State name",
-            "country": "Country"
+ def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
+    prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
+Search for latest information about "{university_name}".
+
+CURRENT YEAR: 2026
+
+Return ONLY valid JSON in this exact structure (include 7-8 items per list where applicable):
+
+{{
+    "university_name": "{university_name}",
+    "location": {{
+        "city": "City name",
+        "state": "State name", 
+        "country": "Country"
+    }},
+    "country": "India/Other",
+    "last_updated": "{datetime.now().strftime('%Y-%m-%d')}",
+    "academic_info": {{
+        "nirf_rank": "Rank or Not Applicable",
+        "nirf_rank_numeric": 0,
+        "courses": {{
+            "ug": ["8 main UG courses"],
+            "pg": ["8 main PG courses"],
+            "phd": ["8 main PhD areas"]
         }},
-        "country": "India/Other",
-        "last_updated": "{datetime.now().strftime('%Y-%m-%d')}",
-        
-        "academic_info": {{
-            "nirf_rank": "Rank or Not Applicable",
-            "nirf_rank_numeric": 0,
-            "courses": {{
-                "ug": ["8 main UG courses"],
-                "pg": ["8 main PG courses"],
-                "phd": ["8 main PhD areas"]
-            }},
-            "entrance_exams": ["8 main entrance exams"],
-            "official_website": "URL",
-            "fees_link": "URL",
-            "placements": {{
-                "year": "2025",
-                "highest_package": "Amount",
-                "average_package": "Amount",
-                "top_recruiters": ["8 top companies"],
-                "companies_visited": 0
-            }}
-        }},
-        
-        "research_info": {{
-            "publications": {{
-                "last_year_2025": 0,
-                "total": 0
-            }},
-            "patents": {{
-                "filed_total": 0,
-                "granted_total": 0
-            }},
-            "funded_projects": {{
-                "count": 0,
-                "total_value_crores": 0
-            }},
-            "centralized_facilities": ["7 main facilities"]
-        }},
-        
-        "sports_cultural": {{
-            "cultural_events": [
-                {{"event_name": "Event", "dates": "Dates"}}
-            ],
-            "sports_events": [
-                {{"event_name": "Event", "dates": "Dates"}}
-            ],
-            "extra_curricular": ["8 main activities"]
-        }},
-        
-        "upcoming_events": {{
-            "international_conferences": [
-                {{"name": "Conference", "dates": "Dates"}}
-            ],
-            "national_conferences": [
-                {{"name": "Conference", "dates": "Dates"}}
-            ],
-            "faculty_development_programs": [
-                {{"name": "FDP", "dates": "Dates"}}
-            ],
-            "training_events": [
-                {{"name": "Training", "dates": "Dates"}}
-            ]
+        "entrance_exams": ["8 main entrance exams"],
+        "official_website": "URL",
+        "fees_link": "URL",
+        "placements": {{
+            "year": "2025",
+            "highest_package": "Amount",
+            "average_package": "Amount",
+            "top_recruiters": ["8 top companies"],
+            "companies_visited": 0
         }}
-    }}"""
-        
+    }},
+    "research_info": {{
+        "publications": {{
+            "last_year_2025": 0,
+            "total": 0
+        }},
+        "patents": {{
+            "filed_total": 0,
+            "granted_total": 0
+        }},
+        "funded_projects": {{
+            "count": 0,
+            "total_value_crores": 0
+        }},
+        "centralized_facilities": ["7 main facilities"]
+    }},
+    "sports_cultural": {{
+        "cultural_events": [
+            {{"event_name": "Event", "dates": "Dates"}}
+        ],
+        "sports_events": [
+            {{"event_name": "Event", "dates": "Dates"}}
+        ],
+        "extra_curricular": ["8 main activities"]
+    }},
+    "upcoming_events": {{
+        "international_conferences": [
+            {{"name": "Conference", "dates": "Dates"}}
+        ],
+        "national_conferences": [
+            {{"name": "Conference", "dates": "Dates"}}
+        ],
+        "faculty_development_programs": [
+            {{"name": "FDP", "dates": "Dates"}}
+        ],
+        "training_events": [
+            {{"name": "Training", "dates": "Dates"}}
+        ]
+    }}
+}}"""
+    
+    # Rest of your method remains the same... 
         payload = {
             "model": "qwen/qwen3-vl-30b-a3b-thinking",
             "messages": [{"role": "user", "content": prompt}],
@@ -723,6 +720,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
