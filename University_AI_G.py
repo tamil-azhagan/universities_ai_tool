@@ -491,7 +491,11 @@ def main():
     if st.session_state.show_results and st.session_state.uni_data:
         uni_name = st.session_state.uni_name
         uni_data = st.session_state.uni_data
-        
+
+        # DEBUG - show what we have
+        st.write("Debug - Displaying results for:", uni_name)
+        st.write("Debug - Full data:", uni_data)
+        st.write("---")
         # Location Badge
         location = uni_data.get('location', {})
         st.markdown(f"""
@@ -704,6 +708,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
