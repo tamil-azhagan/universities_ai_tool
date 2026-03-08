@@ -911,6 +911,8 @@ class UniversityInfoSystem:
             json.dump(self.master_data, f, indent=4, ensure_ascii=False)
     
     def fetch_university_details(self, university_name: str) -> Dict[str, Any]:
+        st.write("Debug - API Key (first 10 chars):", API_KEY[:10] + "...")
+        st.write("Debug - OpenRouter URL:", OPENROUTER_URL)
         prompt = f"""You are a university research assistant with REAL-TIME INTERNET ACCESS. 
 Search for latest information about "{university_name}".
 
@@ -1424,6 +1426,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
