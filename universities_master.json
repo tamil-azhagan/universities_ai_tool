@@ -2106,5 +2106,488 @@
         },
         "last_accessed": "2026-03-08 23:47:03",
         "search_count": 1
+    },
+    "IIT  Kharagpur": {
+        "data": {
+            "university_name": "IIT Kharagpur",
+            "location": {
+                "city": "Kharagpur",
+                "state": "West Bengal",
+                "country": "India"
+            },
+            "country": "India",
+            "last_updated": "2026-03-09",
+            "academic_info": {
+                "nirf_rank": "1",
+                "nirf_rank_numeric": 1,
+                "courses": {
+                    "ug": [
+                        "B.Tech in Civil Engineering",
+                        "B.Tech in Mechanical Engineering",
+                        "B.Tech in Electrical Engineering",
+                        "B.Tech in Computer Science & Engineering",
+                        "B.Tech in Chemical Engineering",
+                        "B.Tech in Electronics & Communication Engineering",
+                        "B.Tech in Metallurgical Engineering",
+                        "B.Tech in Ocean Engineering"
+                    ],
+                    "pg": [
+                        "M.Tech in Artificial Intelligence",
+                        "M.Tech in Data Science",
+                        "M.Tech in Renewable Energy",
+                        "M.Tech in Biotechnology",
+                        "M.Tech in Structural Engineering",
+                        "M.Tech in Control Systems",
+                        "M.Tech in Nanotechnology",
+                        "M.Tech in Financial Engineering"
+                    ],
+                    "phd": [
+                        "AI & Machine Learning",
+                        "Quantum Computing",
+                        "Sustainable Energy Systems",
+                        "Biomedical Engineering",
+                        "Advanced Materials",
+                        "Climate Science",
+                        "Cybersecurity",
+                        "Space Technology"
+                    ]
+                },
+                "entrance_exams": [
+                    "JEE Advanced",
+                    "GATE",
+                    "CAT",
+                    "UPSC Civil Services",
+                    "NET",
+                    "UGC NET",
+                    "JAM",
+                    "IIT JAM"
+                ],
+                "official_website": "https://www.iitkgp.ac.in",
+                "fees_link": "https://www.iitkgp.ac.in/admissions/fees",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "₹50.5 LPA",
+                    "average_package": "₹15.2 LPA",
+                    "top_recruiters": [
+                        "Google",
+                        "Microsoft",
+                        "Amazon",
+                        "Tata Consultancy Services",
+                        "Reliance Industries",
+                        "NVIDIA",
+                        "Bosch",
+                        "Flipkart"
+                    ],
+                    "companies_visited": 215
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 1523,
+                    "total": 10450
+                },
+                "patents": {
+                    "filed_total": 147,
+                    "granted_total": 98
+                },
+                "funded_projects": {
+                    "count": 234,
+                    "total_value_crores": 520.7
+                },
+                "centralized_facilities": [
+                    "Supercomputing Facility",
+                    "National Nanofabrication Facility",
+                    "Advanced Materials Testing Lab",
+                    "Renewable Energy Research Center",
+                    "Biomedical Engineering Lab",
+                    "Space Technology Institute",
+                    "Quantum Computing Lab"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "TechFest",
+                        "dates": "March 15-18, 2026"
+                    },
+                    {
+                        "event_name": "Kala Utsav",
+                        "dates": "October 20-23, 2026"
+                    },
+                    {
+                        "event_name": "IIT Kharagpur Annual Cultural Festival",
+                        "dates": "November 5-8, 2026"
+                    },
+                    {
+                        "event_name": "Dance Marathon",
+                        "dates": "February 10-12, 2026"
+                    },
+                    {
+                        "event_name": "Theatre Festival",
+                        "dates": "April 2-5, 2026"
+                    },
+                    {
+                        "event_name": "Music Fest",
+                        "dates": "June 18-20, 2026"
+                    },
+                    {
+                        "event_name": "Art Exhibition",
+                        "dates": "August 25-28, 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Inter-IIT Sports Meet",
+                        "dates": "January 10-14, 2026"
+                    },
+                    {
+                        "event_name": "National University Games",
+                        "dates": "May 5-8, 2026"
+                    },
+                    {
+                        "event_name": "IIT Kharagpur Annual Sports Day",
+                        "dates": "September 1-3, 2026"
+                    },
+                    {
+                        "event_name": "Swimming Championship",
+                        "dates": "February 20-22, 2026"
+                    },
+                    {
+                        "event_name": "Cricket Tournament",
+                        "dates": "July 15-18, 2026"
+                    },
+                    {
+                        "event_name": "Badminton League",
+                        "dates": "November 1-4, 2026"
+                    },
+                    {
+                        "event_name": "Athletics Meet",
+                        "dates": "December 10-12, 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Music Society",
+                    "Dance Troupe",
+                    "Theatre Group",
+                    "Photography Club",
+                    "Debate Society",
+                    "Environmental Club",
+                    "Entrepreneurship Cell"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "IEEE International Conference on AI",
+                        "dates": "April 10-13, 2026"
+                    },
+                    {
+                        "name": "World Renewable Energy Summit",
+                        "dates": "June 5-8, 2026"
+                    },
+                    {
+                        "name": "Global Quantum Computing Symposium",
+                        "dates": "August 20-23, 2026"
+                    },
+                    {
+                        "name": "International Conference on Sustainable Development",
+                        "dates": "October 15-18, 2026"
+                    },
+                    {
+                        "name": "IEEE Robotics & Automation Conference",
+                        "dates": "November 2-5, 2026"
+                    },
+                    {
+                        "name": "Global Cybersecurity Forum",
+                        "dates": "December 10-13, 2026"
+                    },
+                    {
+                        "name": "International Conference on Climate Change",
+                        "dates": "February 25-28, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "National Conference on Engineering Education",
+                        "dates": "March 1-4, 2026"
+                    },
+                    {
+                        "name": "Indian Science Congress",
+                        "dates": "May 10-13, 2026"
+                    },
+                    {
+                        "name": "National Conference on Renewable Energy",
+                        "dates": "July 15-18, 2026"
+                    },
+                    {
+                        "name": "National Conference on Data Science",
+                        "dates": "September 5-8, 2026"
+                    },
+                    {
+                        "name": "National Conference on Biotechnology",
+                        "dates": "November 1-4, 2026"
+                    },
+                    {
+                        "name": "National Conference on Materials Science",
+                        "dates": "January 20-23, 2026"
+                    },
+                    {
+                        "name": "National Conference on Space Technology",
+                        "dates": "March 25-28, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "FDP on AI Ethics",
+                        "dates": "April 5-8, 2026"
+                    },
+                    {
+                        "name": "FDP on Sustainable Engineering",
+                        "dates": "June 10-13, 2026"
+                    },
+                    {
+                        "name": "FDP on Quantum Computing",
+                        "dates": "August 20-23, 2026"
+                    },
+                    {
+                        "name": "FDP on Data Science Applications",
+                        "dates": "October 15-18, 2026"
+                    },
+                    {
+                        "name": "FDP on Biomedical Engineering",
+                        "dates": "December 5-8, 2026"
+                    },
+                    {
+                        "name": "FDP on Climate Change Solutions",
+                        "dates": "February 10-13, 2026"
+                    },
+                    {
+                        "name": "FDP on Entrepreneurship",
+                        "dates": "March 25-28, 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "AI & ML Bootcamp",
+                        "dates": "May 1-4, 2026"
+                    },
+                    {
+                        "name": "Cloud Computing Training",
+                        "dates": "July 10-13, 2026"
+                    },
+                    {
+                        "name": "Blockchain Development Workshop",
+                        "dates": "September 15-18, 2026"
+                    },
+                    {
+                        "name": "Cybersecurity Certification",
+                        "dates": "November 20-23, 2026"
+                    },
+                    {
+                        "name": "Data Analytics Training",
+                        "dates": "January 5-8, 2026"
+                    },
+                    {
+                        "name": "Robotics Programming Course",
+                        "dates": "March 10-13, 2026"
+                    },
+                    {
+                        "name": "Sustainable Design Workshop",
+                        "dates": "May 25-28, 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-09 00:45:35",
+        "search_count": 1
+    },
+    "university of tokyo": {
+        "data": {
+            "university_name": "university of tokyo",
+            "location": {
+                "city": "Tokyo",
+                "state": "Tokyo Prefecture",
+                "country": "Japan"
+            },
+            "country": "Other",
+            "last_updated": "2026-03-09",
+            "academic_info": {
+                "nirf_rank": "Not Applicable",
+                "qs_rank": "4",
+                "nirf_rank_numeric": 0,
+                "courses": {
+                    "ug": [
+                        "Engineering",
+                        "Medicine",
+                        "Law",
+                        "Economics",
+                        "Humanities",
+                        "Science",
+                        "Agriculture",
+                        "Social Sciences"
+                    ],
+                    "pg": [
+                        "Data Science",
+                        "Bioengineering",
+                        "International Relations",
+                        "Public Policy",
+                        "Financial Engineering",
+                        "Environmental Science",
+                        "Artificial Intelligence",
+                        "Neuroscience"
+                    ],
+                    "phd": [
+                        "Quantum Physics",
+                        "Molecular Biology",
+                        "Sustainable Development",
+                        "Digital Humanities",
+                        "Advanced Materials",
+                        "Global Health",
+                        "Robotics",
+                        "Climate Change Studies"
+                    ]
+                },
+                "entrance_exams": [
+                    "National Center Test",
+                    "University of Tokyo Entrance Exam",
+                    "GRE",
+                    "TOEFL",
+                    "IELTS",
+                    "JLPT",
+                    "SAT",
+                    "ACT"
+                ],
+                "official_website": "https://www.u-tokyo.ac.jp/en",
+                "fees_link": "https://www.u-tokyo.ac.jp/en/admissions/fees.html",
+                "placements": {
+                    "year": "2025",
+                    "highest_package": "1,250,000 JPY",
+                    "average_package": "820,000 JPY",
+                    "top_recruiters": [
+                        "Toyota",
+                        "Sony",
+                        "Mitsubishi UFJ Financial Group",
+                        "Nissan",
+                        "Panasonic",
+                        "SoftBank",
+                        "Toshiba",
+                        "Hitachi"
+                    ],
+                    "companies_visited": 147
+                }
+            },
+            "research_info": {
+                "publications": {
+                    "last_year_2025": 12478,
+                    "total": 187654
+                },
+                "patents": {
+                    "filed_total": 342,
+                    "granted_total": 217
+                },
+                "funded_projects": {
+                    "count": 289,
+                    "total_value_crores": 145.7
+                },
+                "centralized_facilities": [
+                    "Advanced Research Institute for Natural Sciences",
+                    "Supercomputing Center",
+                    "Institute for Advanced Study",
+                    "National Institute for Quantum Science and Technology",
+                    "Tokyo University Hospital",
+                    "Center for Advanced Photonics",
+                    "Institute for Chemical Research"
+                ]
+            },
+            "sports_cultural": {
+                "cultural_events": [
+                    {
+                        "event_name": "Tokyo University Festival",
+                        "dates": "April 15-17, 2026"
+                    },
+                    {
+                        "event_name": "International Student Cultural Exchange",
+                        "dates": "October 2026"
+                    },
+                    {
+                        "event_name": "Anime and Manga Symposium",
+                        "dates": "November 2026"
+                    },
+                    {
+                        "event_name": "Japanese Traditional Arts Showcase",
+                        "dates": "December 2026"
+                    }
+                ],
+                "sports_events": [
+                    {
+                        "event_name": "Tokyo University Sports Festival",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "event_name": "Inter-University Rugby Championship",
+                        "dates": "May 2026"
+                    },
+                    {
+                        "event_name": "Annual Swimming Competition",
+                        "dates": "June 2026"
+                    }
+                ],
+                "extra_curricular": [
+                    "Robotics Club",
+                    "Anime Society",
+                    "Japanese Language Exchange",
+                    "Environmental Conservation Group",
+                    "Entrepreneurship Network",
+                    "Cultural Dance Troupes",
+                    "Volunteer Service Programs",
+                    "Academic Debate Team"
+                ]
+            },
+            "upcoming_events": {
+                "international_conferences": [
+                    {
+                        "name": "Global Climate Change Summit",
+                        "dates": "June 10-12, 2026"
+                    },
+                    {
+                        "name": "Asia-Pacific AI Research Symposium",
+                        "dates": "August 25-27, 2026"
+                    }
+                ],
+                "national_conferences": [
+                    {
+                        "name": "Japan Science and Technology Congress",
+                        "dates": "September 5-7, 2026"
+                    },
+                    {
+                        "name": "Japanese Medical Research Forum",
+                        "dates": "November 15-17, 2026"
+                    }
+                ],
+                "faculty_development_programs": [
+                    {
+                        "name": "Global Leadership Training",
+                        "dates": "February 2026"
+                    },
+                    {
+                        "name": "Innovative Teaching Methods Workshop",
+                        "dates": "April 2026"
+                    }
+                ],
+                "training_events": [
+                    {
+                        "name": "Data Science Bootcamp",
+                        "dates": "March 2026"
+                    },
+                    {
+                        "name": "Entrepreneurship Accelerator",
+                        "dates": "May 2026"
+                    }
+                ]
+            }
+        },
+        "last_accessed": "2026-03-09 07:57:57",
+        "search_count": 1
     }
 }
