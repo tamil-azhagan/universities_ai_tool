@@ -1544,17 +1544,23 @@ st.markdown("""
     
     /* Tab styling - following search button pattern for all tabs */
     .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
     
     .stTabs [data-baseweb="tab"] {
-    height: 50px;
-    font-size: 1.2rem;
+    height: 60px;
+    font-size: 1.4rem;
     font-weight: 600;
     background-color: #1E3A8A !important;
     color: white !important;
     border-radius: 10px 10px 0 0;
     border: none;
+    flex: 1;
+    text-align: center;
+    padding: 0 5px;
+    white-space: nowrap;
 }
 
     
@@ -1956,7 +1962,7 @@ def main():
         location = uni_data.get('location', {})
         st.markdown(f"""
         <div class="location-badge">
-            📍 {location.get('city', 'Unknown')}, {location.get('state', 'Unknown')}, {location.get('country', 'Unknown')}
+            {location.get('city', 'Unknown')}, {location.get('state', 'Unknown')}, {location.get('country', 'Unknown')}
         </div>
         """, unsafe_allow_html=True)
         
@@ -2179,6 +2185,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
