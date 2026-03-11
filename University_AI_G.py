@@ -794,42 +794,32 @@ st.markdown("""
         display: inline-block;
         margin: 0 0.5rem;
     }
-    /* Tab styling with Indian flag colors */
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        height: 50px;
-        font-size: 1.2rem;
-        font-weight: 600;
-    }
-    .stTabs [data-baseweb="tab"]:nth-of-type(1) {
-        background-color: #FF9933;  /* Saffron */
-        color: white;
-        border-radius: 10px 10px 0 0;
-    }
-    .stTabs [data-baseweb="tab"]:nth-of-type(2) {
-     color: #FF9933; 
-    }
-    .stTabs [data-baseweb="tab"]:nth-of-type(3) {
-     color: #FF9933; 
-    }
-    .stTabs [data-baseweb="tab"]:nth-of-type(4) {
-        color: #FF9933; 
-    }
-    .stTabs [data-baseweb="tab"]:nth-of-type(5) {
-    background-color: #FFFFFF;  /* White */
-    color: #FF9933;  /* Saffron color text */
+    
+    /* Tab styling - following search button pattern */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #1E3A8A !important;  /* Same as search button */
+    color: white !important;  /* Same as search button */
     border-radius: 10px 10px 0 0;
-    border: 2px solid #FF9933;
-    }
-    .stTabs [data-baseweb="tab"]:hover {
-        opacity: 0.9;
-        transform: scale(1.02);
-    }
-    .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
-        border-bottom: 4px solid #000080 !important;
-    }
+    border: none;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #2E4A9A !important;  /* Same as search button hover */
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+    border-bottom: 4px solid #FF9933 !important;  /* Saffron underline for active tab */
+}
+    
     /* Button row spacing */
     .button-row {
         margin-bottom: 2rem;
@@ -1441,6 +1431,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
