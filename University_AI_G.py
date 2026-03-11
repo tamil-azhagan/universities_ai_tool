@@ -760,19 +760,18 @@ st.markdown("""
         display: inline-block;
         margin-bottom: 1rem;
     }
-    .stButton>button {
-    background-color: #1E3A8A;
-    color: #FF9933;  /* Saffron color text */
-    font-weight: 600;
-    padding: 0.75rem 2rem;
-    border-radius: 30px;
-    border: none;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-    .stButton>button:hover {
-    background-color: #2E4A9A;
-    color: #FF9933;  
-}
+     .stButton>button {
+         background-color: #1E3A8A;
+         color: white;
+         font-weight: 600;
+         padding: 0.75rem 2rem;
+         border-radius: 30px;
+         border: none;
+         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+     }
+     .stButton>button:hover {
+         background-color: #2E4A9A;
+     }
     .reset-button>button {
         background-color: #dc3545;
     }
@@ -810,16 +809,16 @@ st.markdown("""
         border-radius: 10px 10px 0 0;
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(2) {
-        background-color: #FFFFFF;  /* White */
-        color: #000080;
-        border-radius: 10px 10px 0 0;
-        border: 2px solid #FF9933;
+    background-color: #FFFFFF;  /* White */
+    color: #FF9933;  /* Saffron color text */
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #FF9933;
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(3) {
-        background-color: #FFFFFF;  /* White */
-        color: #000080;
-        border-radius: 10px 10px 0 0;
-        border: 2px solid #138808;
+    background-color: #FFFFFF;  /* White */
+    color: #FF9933;  /* Saffron color text */
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #138808;
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(4) {
         background-color: #138808;  /* Green */
@@ -827,10 +826,10 @@ st.markdown("""
         border-radius: 10px 10px 0 0;
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(5) {
-        background-color: #FFFFFF;  /* White */
-        color: #000080;
-        border-radius: 10px 10px 0 0;
-        border: 2px solid #FF9933;
+    background-color: #FFFFFF;  /* White */
+    color: #FF9933;  /* Saffron color text */
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #FF9933;
     }
     .stTabs [data-baseweb="tab"]:hover {
         opacity: 0.9;
@@ -1450,5 +1449,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
