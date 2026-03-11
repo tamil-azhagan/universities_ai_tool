@@ -245,8 +245,8 @@
             "data_year": "2025",
             "data_source": "Internet search",
             "academic_info": {
-                "nirf_rank": "6th (2025)",
-                "nirf_rank_numeric": 6,
+                "nirf_rank": "1",
+                "nirf_rank_numeric": 1,
                 "courses": {
                     "ug": [
                         "B.Tech in Computer Science",
@@ -2591,4 +2591,5 @@
         "search_count": 1
     }
 }
+
 
