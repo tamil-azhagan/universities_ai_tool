@@ -809,21 +809,13 @@ st.markdown("""
         border-radius: 10px 10px 0 0;
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(2) {
-    background-color: #FFFFFF;  /* White */
-    color: #FF9933;  /* Saffron color text */
-    border-radius: 10px 10px 0 0;
-    border: 2px solid #FF9933;
+     color: #FF9933; 
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(3) {
-    background-color: #FFFFFF;  /* White */
-    color: #FF9933;  /* Saffron color text */
-    border-radius: 10px 10px 0 0;
-    border: 2px solid #138808;
+     color: #FF9933; 
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(4) {
-        background-color: #138808;  /* Green */
-        color: white;
-        border-radius: 10px 10px 0 0;
+        color: #FF9933; 
     }
     .stTabs [data-baseweb="tab"]:nth-of-type(5) {
     background-color: #FFFFFF;  /* White */
@@ -1449,6 +1441,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
