@@ -761,17 +761,18 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     .stButton>button {
-        background-color: #1E3A8A;
-        color: white;
-        font-weight: 600;
-        padding: 0.75rem 2rem;
-        border-radius: 30px;
-        border: none;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    }
+    background-color: #1E3A8A;
+    color: #FF9933;  /* Saffron color text */
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
     .stButton>button:hover {
-        background-color: #2E4A9A;
-    }
+    background-color: #2E4A9A;
+    color: #FF9933;  
+}
     .reset-button>button {
         background-color: #dc3545;
     }
@@ -1449,4 +1450,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
