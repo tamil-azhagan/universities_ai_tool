@@ -1548,14 +1548,15 @@ st.markdown("""
     }
     
     .stTabs [data-baseweb="tab"] {
-        height: 50px;
-        font-size: 1.2rem;
-        font-weight: 600;
-        background-color: #1E3A8A !important;
-        color: white !important;
-        border-radius: 10px 10px 0 0;
-        border: none;
-    }
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #1E3A8A !important;
+    color: white !important;
+    border-radius: 10px 10px 0 0;
+    border: none;
+}
+
     
     .stTabs [data-baseweb="tab"]:hover {
         background-color: #2E4A9A !important;
@@ -2178,6 +2179,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
